@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="778c8c76-d790-4468-9395-c7f3243fb3a4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Store.Test/Store.Test.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Test/Store.Test.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Store.Test/UnitTest1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Test/Entities/OrderTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Test/Entities/OrderTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Store.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,7 +40,7 @@
     <property name="rider.run.widget.enabled.cache" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="c2349233-81fc-428e-8dc2-cfcedc37f7f2" />
+  <component name="RunManager" selected="46e74d5b-50ab-471e-9252-ad5c72988e6e" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638151414046</updated>
-      <workItem from="1638151418835" duration="1901000" />
+      <workItem from="1638151418835" duration="3674000" />
     </task>
     <servers />
   </component>
@@ -67,5 +72,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Store.Test/Entities/OrderTests.cs</url>
+          <line>11</line>
+          <properties documentPath="C:\Users\brewe\OneDrive\Academic\Balta.io\7182\Store\Store.Test\Entities\OrderTests.cs" initialLine="11" containingFunctionPresentation="method 'IsValidNewOrder_Generate8DigitsNumber'">
+            <startOffsets>
+              <option value="220" />
+            </startOffsets>
+            <endOffsets>
+              <option value="221" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
