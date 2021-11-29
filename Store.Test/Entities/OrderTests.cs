@@ -6,13 +6,15 @@ namespace Store.Test.Entities;
 [TestClass]
 public class OrderTests
 {
+    private readonly Customer _customer = new("Brewerton Santos","mail@mail.com");
+    private readonly Product _product = new Product("Mochila", 10, true);
+    private readonly Discount _discount = new(10, DateTime.Now.AddDays(10));
+    
     [TestMethod]
     [TestCategory("Domain")]
     public void IsValidNewOrder_Generate8DigitsNumber()
     {
-        Customer customer = new("Brewerton Santos","mail@mail.com");
-        Discount discount = new(10, DateTime.Now.AddDays(10));
-        Order order = new(customer, 10, discount);
+        Order order = new(_customer, 10, _discount);
         Assert.AreEqual(8, order.Number.Length);
     }
 

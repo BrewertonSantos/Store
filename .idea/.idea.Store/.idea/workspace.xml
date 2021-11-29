@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="778c8c76-d790-4468-9395-c7f3243fb3a4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.Test/Entities/OrderTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Test/Entities/OrderTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Store.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Store.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638151414046</updated>
-      <workItem from="1638151418835" duration="3674000" />
+      <workItem from="1638151418835" duration="4220000" />
     </task>
     <servers />
   </component>
@@ -72,24 +70,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Store.Test/Entities/OrderTests.cs</url>
-          <line>11</line>
-          <properties documentPath="C:\Users\brewe\OneDrive\Academic\Balta.io\7182\Store\Store.Test\Entities\OrderTests.cs" initialLine="11" containingFunctionPresentation="method 'IsValidNewOrder_Generate8DigitsNumber'">
-            <startOffsets>
-              <option value="220" />
-            </startOffsets>
-            <endOffsets>
-              <option value="221" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
