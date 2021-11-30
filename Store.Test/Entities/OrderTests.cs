@@ -1,5 +1,6 @@
 ﻿using System;
 using Store.Domain.Entities;
+using Store.Domain.Enums;
 
 namespace Store.Test.Entities;
 
@@ -22,14 +23,20 @@ public class OrderTests
     [TestCategory("Domain")]
     public void IsValidNewOrder_WaitingPayment()
     {
-        Assert.Fail();
+        Order order = new(_customer, 10, _discount);
+        Assert.AreEqual(order.Status, EOrderStatus.WaitingPayment);
     }
 
     [TestMethod]
     [TestCategory("Domain")]
     public void IsValidNewOrder_WaitingDelivery()
     {
-        Assert.Fail();
+        Order order = new(_customer, 10, _discount);
+        order.AddItem(_product, 2);
+        
+        order.Pay(20);
+        
+        Assert.AreEqual(order.Status, EOrderStatus.WaitingDelivery);
     }
 
     [TestMethod]

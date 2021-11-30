@@ -30,8 +30,7 @@ public class Order : Entity
     public void AddItem(Product product, int quantity)
     {
         var item = new OrderItem(product, quantity);
-        Items.Add(item);
-        
+
         if (item.IsValid)
             Items.Add(item);
     }

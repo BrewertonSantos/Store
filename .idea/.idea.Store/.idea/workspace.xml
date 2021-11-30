@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="778c8c76-d790-4468-9395-c7f3243fb3a4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Store/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Domain/Entities/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Domain/Entities/Order.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.Domain/Entities/OrderItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Domain/Entities/OrderItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Store.Test/Entities/OrderTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Store.Test/Entities/OrderTests.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Store.sln.DotSettings.user" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +17,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/df640d07fd5a42fd87b75f48bf19057b8eb0/00/7134919f/Executor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9e821d4c3a394f8faea3644256a35d4811590/7c/667b14b9/Assert.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,10 +39,11 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="rider.run.widget.enabled.cache" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="46e74d5b-50ab-471e-9252-ad5c72988e6e" />
+  <component name="RunManager" selected="c2349233-81fc-428e-8dc2-cfcedc37f7f2" />
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -47,7 +52,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638151414046</updated>
-      <workItem from="1638151418835" duration="4220000" />
+      <workItem from="1638151418835" duration="5057000" />
+      <workItem from="1638233047438" duration="2286000" />
     </task>
     <servers />
   </component>
@@ -55,7 +61,7 @@
     <option name="version" value="3" />
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
