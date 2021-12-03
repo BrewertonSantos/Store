@@ -33,9 +33,7 @@ public class OrderTests
     {
         Order order = new(_customer, 10, _discount);
         order.AddItem(_product, 2);
-        
         order.Pay(20);
-        
         Assert.AreEqual(order.Status, EOrderStatus.WaitingDelivery);
     }
 
@@ -43,28 +41,36 @@ public class OrderTests
     [TestCategory("Domain")]
     public void IsValidNewOrder_Canceled()
     {
-        Assert.Fail();
+        Order order = new(_customer, 10, _discount);
+        order.Cancel();
+        Assert.AreEqual(order.Status, EOrderStatus.Canceled);
     }
 
     [TestMethod]
     [TestCategory("Domain")]
     public void IsValidNewOrderWithoutProduct_DontAdd()
     {
-        Assert.Fail();
+        var order = new Order(_customer, 0, null);
+        order.AddItem(null, 10);
+        Assert.AreEqual(order.Items.Count, 0);
     }
 
     [TestMethod]
     [TestCategory("Domain")]
     public void IsValidNewOrderWithAmountEqualsOrMinorZero_DontAdd()
     {
-        Assert.Fail();
+        var order = new Order(_customer, 0, null);
+        order.AddItem(_product, -1);
+        Assert.AreEqual(order.Items.Count, 0);
     }
 
     [TestMethod]
     [TestCategory("Domain")]
     public void IsValidNewOrder_TotalEquals50()
     {
-        Assert.Fail();
+        Order order = new(_customer, 0, null);
+        order.AddItem(_product, 5);
+        Assert.AreEqual(50, order.Total());
     }
 
     [TestMethod]
