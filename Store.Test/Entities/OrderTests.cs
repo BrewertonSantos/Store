@@ -10,6 +10,7 @@ public class OrderTests
     private readonly Customer _customer = new("Brewerton Santos","mail@mail.com");
     private readonly Product _product = new Product("Mochila", 10, true);
     private readonly Discount _discount = new(10, DateTime.Now.AddDays(10));
+    private readonly Discount _expiredDiscount = new(100, DateTime.Now.AddDays(-1));
     
     [TestMethod]
     [TestCategory("Domain")]
@@ -77,7 +78,9 @@ public class OrderTests
     [TestCategory("Domain")]
     public void IsExpiredDiscount_OrderValueEquals60()
     {
-        Assert.Fail();
+        Order order = new(_customer, 10, _expiredDiscount);
+        order.AddItem(_product, 5);
+        Assert.AreEqual(60, order.Total());
     }
 
     [TestMethod]
