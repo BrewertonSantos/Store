@@ -87,7 +87,9 @@ public class OrderTests
     [TestCategory("Domain")]
     public void IsInvalidRequest_OrderValueEquals60()
     {
-        Assert.Fail();
+        Order order = new(_customer, 10, null);
+        order.AddItem(_product, 5);
+        Assert.AreEqual(60, order.Total());
     }
 
     [TestMethod]

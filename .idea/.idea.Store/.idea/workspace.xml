@@ -13,6 +13,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3b36453d0ecd482aba654155b5683585ec00/16/49aa492c/Notifiable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/df640d07fd5a42fd87b75f48bf19057b8eb0/00/7134919f/Executor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -51,7 +59,7 @@
       <updated>1638151414046</updated>
       <workItem from="1638151418835" duration="5057000" />
       <workItem from="1638233047438" duration="3314000" />
-      <workItem from="1638567296870" duration="1910000" />
+      <workItem from="1638567296870" duration="3055000" />
     </task>
     <servers />
   </component>
